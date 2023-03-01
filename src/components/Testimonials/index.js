@@ -15,7 +15,8 @@ export default function Testimonials() {
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <CommandLineIcon className="block w-8 text-gray-500 mb-4" />
-                <p className="leading-relaxed mb-6">{testimonial.quote}</p>
+                <p className="leading-relaxed mb-6 text-justify
+                ">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <img
                     alt="testimonial"

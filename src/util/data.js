@@ -104,3 +104,37 @@ export const testimonials = [
  
 
 ];
+export const repositories = [
+    {
+        
+        name: "Movity",
+        description: "Mobile application for searching movies and series",
+        link:  "https://github.com/dakirmaria/movity",
+        language: "Dart",
+
+    },
+    {
+        
+        name: "TTEcolab",
+        description: "Object detection and recognition for visually impaired people",
+        link:  "https://github.com/dakirmaria/TTEcolab",
+        language: "Python",
+
+    },
+    {
+        
+        name: "Face-Mask-Detector",
+        description: "Face mask detection can be used to detect whether a person is wearing a mask or not.",
+        link:  "https://github.com/dakirmaria/Face-Mask-Detector",
+        language: "Python",
+
+    },
+    {
+        
+        name: "mdk-portfolio",
+        description: "My personal website",
+        link:  "https://github.com/dakirmaria/mdk-portfolio",
+        language: "Javascript",
+
+    }
+]

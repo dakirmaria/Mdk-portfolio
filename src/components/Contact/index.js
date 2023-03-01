@@ -20,12 +20,15 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => alert("Your message has been sent, Thank you!")
+        
+      )
       .catch((error) => alert(error));
   }
 
   return (
     <section id="contact" className="relative">
+      
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
         
         <form
@@ -76,11 +79,19 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
+          {name ==="" || email==="" || message ==="" ? <button
             type="submit"
-            className="text-white  bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white  bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg "disabled>
             Submit
           </button>
+          : <button
+          type="submit"
+          className="text-white  bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">
+          Submit
+        </button>
+            
+          }
+          
         </form>
       </div>
     </section>

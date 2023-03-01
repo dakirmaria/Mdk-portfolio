@@ -24,7 +24,7 @@ export default function Navbar() {
         <a
           href="https://www.linkedin.com/in/maria-dakir-47ba83193"
           
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3  text-green-400 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3  text-green-700 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           LinkedIn
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
